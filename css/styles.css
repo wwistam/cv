@@ -1,0 +1,194 @@
+/*
+Go to below website to look for color you like, color combination the color code
+https://colorhunt.co/palettes
+https://color.adobe.com/create/color-wheel
+
+This is Discord chat for appbrewery Web Developer
+https://discord.com/channels/743099782431637545/744069923084435488
+
+This is the link to resources for Angela Web Developer course
+https://www.appbrewery.co/p/web-development-course-resources
+
+Use this website to generate button code
+https://css3buttongenerator.com/
+
+This is Discord chat for appbrewery Web Developer course
+https://discord.com/channels/743099782431637545/744069923084435488
+
+This is Discord chat for appbrewery Web Pyton course
+https://discord.com/channels/743099584242516037/771803322843004948
+
+Go to this website to publish your website for free
+https://github.com/
+
+*/
+
+body {
+  color : #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /*display: inline-block;*/
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  /*width: 25%;*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  width: 10%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+}
+
+.middle-container {
+  margin: 100px 0
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+
+.developer {
+  color: #66BFBF;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.cloud-bottom {
+/*  position: absolute;*/
+  position: fixed;
+  left: 30%;
+}
+
+.cloud-top {
+  position: relative;
+  left: 200px;
+  top: 10px;
+  margin-top: 40px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.ww {
+  width: 10%;
+  margin: auto
+}
+
+.sunrise {
+  /*height: 100px;*/
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.qlik {
+  /*height: 100px;*/
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact_message {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+/*Use this website to generate button CODE below
+https://css3buttongenerator.com/
+*/
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+/*
+.skill_inu_description{
+  clear: left;
+}
+.skill_qlik_description{
+  clear: right;
+}
+*/
